@@ -1,0 +1,69 @@
+{
+  "project": "QuantumLens: Explainable Text Summarization and KNN-Based Document Clustering",
+  "course": "Advanced Social Media and Text Analysis",
+  "version": "1.0.0",
+  "clustering_parameters": {
+    "algorithm": "KNN-Based Graph Clustering via Connected Components",
+    "k_neighbors": 3,
+    "similarity_threshold_tau": 0.25,
+    "metric": "cosine_similarity"
+  },
+  "corpus_statistics": {
+    "total_documents": 20,
+    "num_clusters": 6,
+    "num_isolated_at_high_threshold": 0,
+    "mean_intra_cluster_similarity": 0.435,
+    "mean_inter_cluster_similarity": 0.142,
+    "cohesion_ratio": 3.06
+  },
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "cluster_label": "Cluster 0: Qubit • Superconducting • Transmon • Processor",
+      "member_count": 5,
+      "thematic_medoid": "DOC_02: Google Quantum AI Demonstrates Sycamore Qubit Coherence Scaling",
+      "shared_keywords": "qubit, superconducting, transmon, processor, coherence, fidelity",
+      "thematic_synthesis": "Cluster 0 aggregates 5 articles unified by experimental advancements in physical qubit architectures, cryogenic transmon scaling, and high-fidelity quantum control. Google Sycamore and IBM Condor serve as structural anchors, while neutral atom arrays (QuEra) and trapped ions (Quantinuum) represent distinct hardware modalities."
+    },
+    {
+      "cluster_id": 1,
+      "cluster_label": "Cluster 1: Logical • Error • Fault-Tolerant • Syndrome",
+      "member_count": 4,
+      "thematic_medoid": "DOC_06: Harvard and QuEra Demonstrate Fault-Tolerant Quantum Computing with 48 Logical Qubits",
+      "shared_keywords": "logical, error, fault-tolerant, syndrome, surface, code",
+      "thematic_synthesis": "Cluster 1 synthesizes 4 breakthrough studies in active quantum error correction and logical qubit encoding. Key themes include real-time syndrome measurement, surface code decoding, and topological fault tolerance, marking the shift from physical noisy qubits to scalable logical processors."
+    },
+    {
+      "cluster_id": 2,
+      "cluster_label": "Cluster 2: Algorithm • Quantum • Optimization • Circuit",
+      "member_count": 3,
+      "thematic_medoid": "DOC_11: Quantum Approximate Optimization Algorithm Benchmarked for Industrial Max-Cut Problems",
+      "shared_keywords": "algorithm, optimization, variational, circuit, hamiltonian, eigensolver",
+      "thematic_synthesis": "Cluster 2 focuses on specialized quantum algorithmic frameworks including Shor's factorization, QAOA for graph optimization, and VQE for molecular dimer ground-state simulation, exploring near-term quantum utility and circuit compilation."
+    },
+    {
+      "cluster_id": 3,
+      "cluster_label": "Cluster 3: Cryptographic • Kyber • Post-Quantum • Security",
+      "member_count": 3,
+      "thematic_medoid": "DOC_13: NIST Standardizes Post-Quantum Cryptographic Algorithms to Counter Decryption Threat",
+      "shared_keywords": "cryptographic, kyber, post-quantum, security, dilithium, encryption",
+      "thematic_synthesis": "Cluster 3 captures cybersecurity imperatives surrounding post-quantum cryptography, detailing NIST standardization of ML-KEM (Kyber) and ML-DSA (Dilithium), enterprise harvest-now decrypt-later mitigation, and satellite-based quantum key distribution."
+    },
+    {
+      "cluster_id": 4,
+      "cluster_label": "Cluster 4: Application • Optimization • Simulation • Commercial",
+      "member_count": 3,
+      "thematic_medoid": "DOC_16: JPMorgan and QC Ware Deploy Quantum Algorithms for Portfolio Optimization and Risk Hedging",
+      "shared_keywords": "application, optimization, simulation, commercial, finance, catalyst",
+      "thematic_synthesis": "Cluster 4 encompasses real-world industrial and commercial deployments of hybrid quantum-classical workflows across financial portfolio risk management (JPMorgan), green ammonia chemical catalyst simulation, and automotive aerodynamics (BMW Group)."
+    },
+    {
+      "cluster_id": 5,
+      "cluster_label": "Cluster 5: Classical • Exascale • Supercomputer • Benchmark",
+      "member_count": 2,
+      "thematic_medoid": "DOC_19: Oak Ridge National Laboratory Frontier Exascale Supercomputer Solves Classical Molecular Dynamics",
+      "shared_keywords": "classical, exascale, supercomputer, frontier, benchmark, top500",
+      "thematic_synthesis": "Cluster 5 comprises classical high-performance computing articles analyzing Frontier and Aurora exascale architectures. Serving as an intentional baseline contrast to quantum processors, these documents demonstrate clear inter-cluster separation."
+    }
+  ]
+}

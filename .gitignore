@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+.env
+.env.*
+!.env.example
+*.db
+*.sqlite
+*.sqlite3
+dist/
+.vite/
+.pytest_cache/
+.DS_Store
+
+# Large local archive (GitHub rejects files over 100 MB)
+CSE_Project.zip

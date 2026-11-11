@@ -1,0 +1,21 @@
+doc_id,title,source,publication_date,clean_token_count,cluster_id,cluster_label
+DOC_01,IBM Unveils 1121-Qubit Condor Processor and Quantum System Two,IBM Research News,2023-12-04,52,0,Cluster 0: Qubit • Superconducting • Transmon • Processor
+DOC_02,Google Quantum AI Demonstrates Sycamore Qubit Coherence Scaling,Nature Physics,2024-02-18,50,0,Cluster 0: Qubit • Superconducting • Transmon • Processor
+DOC_03,Rigetti Computing Deploys 84-Qubit Ankaa-2 Superconducting System,Rigetti Press Release,2024-01-11,48,0,Cluster 0: Qubit • Superconducting • Transmon • Processor
+DOC_04,QuEra Computing Achieves Breakthrough in 256 Neutral Atom Rydberg Arrays,Physical Review X,2023-11-20,53,0,Cluster 0: Qubit • Superconducting • Transmon • Processor
+DOC_05,Quantinuum Announces 56-Qubit H2-1 Trapped-Ion Processor,Quantum Science and Technology,2024-03-05,51,0,Cluster 0: Qubit • Superconducting • Transmon • Processor
+DOC_06,Harvard and QuEra Demonstrate Fault-Tolerant Quantum Computing with 48 Logical Qubits,Nature,2023-12-06,50,1,Cluster 1: Logical • Error • Fault-Tolerant • Syndrome
+DOC_07,Surface Codes and Real-Time Syndrome Decoding Slash Logical Error Rates,IEEE Transactions on Quantum Engineering,2024-01-29,52,1,Cluster 1: Logical • Error • Fault-Tolerant • Syndrome
+DOC_08,Microsoft and Quantinuum Synthesize Reliable Logical Qubits Using Topological QEC,Microsoft Azure Quantum Blog,2024-04-03,49,1,Cluster 1: Logical • Error • Fault-Tolerant • Syndrome
+DOC_09,Fault-Tolerant Qubit Overhead and Magic State Distillation Bounds,PRX Quantum,2024-02-12,51,1,Cluster 1: Logical • Error • Fault-Tolerant • Syndrome
+DOC_10,Optimizing Shor Algorithm for Prime Factorization on Fault-Tolerant Quantum Hardware,ACM Communications in Computer Systems,2024-02-25,51,2,Cluster 2: Algorithm • Quantum • Optimization • Circuit
+DOC_11,Quantum Approximate Optimization Algorithm Benchmarked for Industrial Max-Cut Problems,Journal of Heuristics and Quantum Optimization,2024-01-15,48,2,Cluster 2: Algorithm • Quantum • Optimization • Circuit
+DOC_12,Variational Quantum Eigensolver Calculates Ground State Energy of Molecular Dimers,Journal of Chemical Physics,2023-11-30,52,2,Cluster 2: Algorithm • Quantum • Optimization • Circuit
+DOC_13,NIST Standardizes Post-Quantum Cryptographic Algorithms to Counter Decryption Threat,NIST Information Technology Laboratory,2024-08-13,50,3,Cluster 3: Cryptographic • Kyber • Post-Quantum • Security
+DOC_14,Transitioning Enterprise Infrastructure to Kyber and Dilithium Post-Quantum Protocols,IEEE Security and Privacy,2024-03-22,50,3,Cluster 3: Cryptographic • Kyber • Post-Quantum • Security
+DOC_15,Quantum Key Distribution Satellite Network Establishes Entanglement-Based Global Security,Optica,2024-02-08,48,3,Cluster 3: Cryptographic • Kyber • Post-Quantum • Security
+DOC_16,JPMorgan and QC Ware Deploy Quantum Algorithms for Portfolio Optimization and Risk Hedging,Financial Times Tech Review,2023-10-18,50,4,Cluster 4: Application • Optimization • Simulation • Commercial
+DOC_17,Quantum Computing Accelerates Catalyst Discovery for Industrial Green Ammonia Production,Green Chemistry and Sustainability,2024-01-05,51,4,Cluster 4: Application • Optimization • Simulation • Commercial
+DOC_18,BMW Group Leverages Hybrid Quantum Machine Learning for Automotive Aerodynamics,Automotive Engineering International,2023-12-14,49,4,Cluster 4: Application • Optimization • Simulation • Commercial
+DOC_19,Oak Ridge National Laboratory Frontier Exascale Supercomputer Solves Classical Molecular Dynamics,HPCwire,2023-11-15,49,5,Cluster 5: Classical • Exascale • Supercomputer • Benchmark
+DOC_20,Frontier and Aurora Exascale Classical Supercomputers Lead Global TOP500 Performance Rankings,Top500 News,2024-04-10,48,5,Cluster 5: Classical • Exascale • Supercomputer • Benchmark
