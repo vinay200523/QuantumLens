@@ -13,11 +13,14 @@
   - type: web
     name: quantumlens-web
     runtime: static
-    plan: free
     rootDir: frontend
     buildCommand: npm install && npm run build
-    staticPublishPath: ./dist
+    staticPublishPath: dist
     envVars:
       - key: VITE_API_URL
         value: https://quantumlens-api.onrender.com/api
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
     autoDeployTrigger: commit
