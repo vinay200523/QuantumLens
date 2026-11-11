@@ -1,6 +1,6 @@
 ﻿services:
   - type: web
-    name: quantumlens-api
+    name: quantumlens-doc-api
     runtime: python
     plan: free
     region: singapore
@@ -18,9 +18,10 @@
     staticPublishPath: dist
     envVars:
       - key: VITE_API_URL
-        value: https://quantumlens-api.onrender.com/api
+        value: https://quantumlens-doc-api.onrender.com/api
     routes:
       - type: rewrite
         source: /*
         destination: /index.html
     autoDeployTrigger: commit
+
